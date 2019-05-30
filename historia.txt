@@ -1,0 +1,2 @@
+Hola soy Lenin,
+El presente archivo es un repaso de lo aprendido de git
