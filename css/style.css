@@ -2,5 +2,16 @@ body
 {
   color: blue;
   font-family: 'Times New Roman', Times, serif;
-
+}
+.container 
+{
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: aqua;
+}
+#header {
+  color: red;
+  border: 5px solid darkblue;
+  border-radius: 15px;
+  background-color: bisque;
 }
