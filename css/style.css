@@ -57,3 +57,10 @@ body
   color: blue;
   font-style: italic;
 }
+#footer
+{
+  padding: 1em;
+  background-color: 777;
+  color: white;
+  text-align: center;
+}
