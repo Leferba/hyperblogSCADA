@@ -53,11 +53,27 @@ body
   padding: 1em;
   background: white;
   color: #333;
+  justify-content: space-between; 
+  display: flexbox;
 }
+#figureContainer
+{
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
 #suscribete
 {
   color: blue;
   font-style: italic;
+}
+#hmi
+{
+  width: 100%;
+  align-content: center;
+  padding: 1em;
+
 }
 #footer
 {
