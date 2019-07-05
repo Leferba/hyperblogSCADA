@@ -9,8 +9,9 @@ Un blog increíble de [ Sistemas de control ACME](https://acmeecuador/post " POS
 * Sistemas de generación
 * Software para la industria y el comercio
 * Capacitación Técnica
-* Cconversores estáticos
+* Conversores estáticos
 * Monitoreo en línea
 * Consultoría para empresas.
+* RFID
 
 Y como un amable recordatorio: **Este readme.md es de prueba**.  Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve [**a nuestra página**](https://acmeecuador.com "oficial").
