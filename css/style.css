@@ -1,82 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i&display=swap');
+
+/* variables */
+:root {
+  --green-color: #7ACC2D;
+  --green-color2:rgb(48, 80, 17);
+  --white-color:white;
+  --black-color:#313337;
+  /* Tipografía */
+  --normal:var(--normal);
+  /* Espaciado */
+  --space:10px;
+  /* Box shadow */
+  --box:0px 0 2px 1px #e6e5e9;
+}
+
 body 
 {
-  background: #1e1f24;
-  color: #333;
+  background: var(--white-color)  ;
+  color: var(--black-color) ;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-
 }
 
-#header {
-  color: rgb(117, 60, 60);
-  font-weight: bolder;
-  font-size: 2.5em;
-  border-radius: 15px;
-  background-color: rgb(77, 98, 1);
-  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
-  margin: 0;
-  padding: 0.5em;
-  text-align: center;
-  align-content: space-between;
-}
 
 /* estilos de la barra de navegacióm */
 .nav
 {
   display: flex;
   justify-content: space-between;
-  background-color: #7ACC2D;
-  color: white;
-  padding: 0px;
-  align-content: center;
+  background-color: var(--green-color);
+  color: var(--white-color);
+  padding: var(--space);
+  align-items: center;
 }
 #brandImage
 {
   padding: 0;
-  height: 30px;
+  height: 100%;
 }
 .nav ul
 {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .nav li
 {
-list-style: none;
+  list-style: none;
 padding-left: 20px;
 }
 .nav  li a
 {
-color: black;
-text-decoration: none;
+  color: var(--black-color);
+  text-decoration: none;
 }
 .nav  li a:hover
 {
-color: white;
+  color: var(--white-color);
+}
+hr {
+  opacity: .2;
+}
+/* header */
+#header {
+  color: rgb(216, 86, 63);
+  font-weight: bolder;
+  font-size: 2.5em;
+  background-color: var(--green-color2);
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+  margin: 0;
+  padding: 5%;
+  text-align: center;
+  align-content: space-between;
 }
 /* Estilos de Productos */
 .products
 {
   background-image: url("../images/curve.png");
-  height: 200px;
+  height: 95px;
   background-size: cover;
   background-position: center top;
-  padding:5%; 
+  background-repeat: no-repeat;
+  padding:10%; 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .product
 {
-  padding: 10px;
+  padding: var(--space);
+  margin-top: -200px;
 }
 .productContent
 {
   background-color: white;
-  padding: 20px;
+  padding: var(--space);
+  box-shadow: var(--box);
 }
+.imgContainer
+{
+  text-align: center;
+}
+.mainButton
+{
+  background-color: var(--green-color);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.mainButton:hover
+{
+  background-color: var(--green-color2);
+ 
+}
+/* Estilos de Comentarios */
+.coments
+{
+  max-height: 50px;
+  margin: var(--space);
+  padding:var(--space); 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.coment
+{
+  padding: var(--space);
 
+}
+.comentContent
+{
+  background-color:wheat;
+  padding: var(--space);
+  box-shadow: var(--box);
+}
+.imgContainer
+{
+  align-content: center;
+}
+.mainButton
+{
+  background-color: var(--green-color);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.mainButton:hover
+{
+  background-color: var(--green-color2);
+ 
+}
 
 /* Estilos del header */
 #header #logo
@@ -100,11 +182,14 @@ color: white;
   margin: 0 auto;
   border-radius: 15px;
   background-color:white;
+  margin: auto;
+  
 }
 .container h1
 {
   font-size: 30px;
   color: blue;
+  
 }
 #post 
 {
@@ -112,7 +197,7 @@ color: white;
   background: white;
   color: #333;
   justify-content: space-between; 
-  display: flexbox;
+  
 }
 #figureContainer
 {

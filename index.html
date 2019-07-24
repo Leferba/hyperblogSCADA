@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <title>AUTOMATION BLOG</title>
 </head>
 <body>
   <!-- Aqui comienza el navbar -->
   <nav class="nav">
     <div class="brandImage">
-      <img src="./images/dragon.png" width="30px" alt="logo">
+      <img src="./images/logo.png" alt="logo">
     </div>
     <div class="navOptions">
       <ul>
@@ -23,44 +25,92 @@
     </div>
   </nav>
   <!-- Aqui termina el navbar -->
+  <div id="header">
+    <img src="images/dragon.png" alt="logo" id="logo"> ACME   COORP ECUADOR  <br>
+    <span id="tagline">Soluciones de Infraestructura</span>
+  </div>
   <!-- Aqui inicia la sección de productos -->
-  <div class="products">
+<div class="products">
+    <!-- PRODUCTO 1-->
     <div class="product">
-      <div class="productContent">producto 1</div>
-    </div>
-    <div class="product">
-      <div class="productContent">producto 2</div>
-    </div>
-  </div>     
-      <!-- Aqui termina la sección de productos -->
-      <div class="container">
-        
-        <div id="header">
-          <img src="images/dragon.png" alt="logo" id="logo"> ACME   COORP ECUADOR  <br>
-          <span id="tagline">Soluciones de Infraestructura</span>
+      <div class="productContent">
+        <div class="img_container">
+          <img src="images/box1.png" alt="img1">
         </div>
-        
-        <div id="post">
-          <h1>SCADA POWER ELECTRONICS</h1>
-          
+        <h1>PRODUCTO 1</h1>
+        <P>Este es el producto 1 que esta genial</P>
+        <button href="#"  class="mainButton">Lo quiero</button>
+      </div>
+    </div>
+    <!-- PRODUCTO 2 -->
+      <div class="product">
+        <div class="productContent">
+          <div class="img_container">
+            <img src="images/box2.png" alt="img1">
+          </div>
+          <h1>PRODUCTO 2</h1>
+          <P>Este es el producto 2 que esta genial</P>
+          <button href="#"  class="mainButton">Lo quiero</button>
+        </div>
+      </div>
+  </div>
+      <!-- Aqui termina la sección de productos -->
+  <!-- Aqui inicia la sección de comentarios -->
+  <div class="coments">
+      <!-- comentario 1-->
+      <div class="coment">
+        <div class="comentContent">
+          <div class="img_container">
+            <img src="images/box1.png" alt="img1">
+          </div>
+          <h3>COM1</h1>
+          <P>Este es el comentario 1 que esta genial</P>
+        </div>
+      </div>
+      <!-- comentario 2 -->
+      <div class="coment">
+          <div class="comentContent">
+            <div class="img_container">
+              <img src="images/box1.png" alt="img1">
+            </div>
+            <h3>COM1</h1>
+            <P>Este es el comentario 2 que esta genial</P>
+          </div>
+        </div> 
+      <!-- comentario 3 -->
+      <div class="coment">
+          <div class="comentContent">
+            <div class="img_container">
+              <img src="images/box1.png" alt="img1">
+            </div>
+            <h3>COM1</h1>
+            <P>Este es el comentario 3 que esta genial</P>
+          </div>
+        </div>      
+
+    </div>
+        <!-- Aqui termina la sección de comentarios -->
+  <div class="container">
+      
+    <div id="post">
+      <h1>SCADA POWER ELECTRONICS</h1> 
       <p>Los sistemas SCADA permiten el monitoreo y control de procesos de sistemas industriales mediante diferente protocolos de comunicaci&oacute;n</p>
       <p>De igual forma existe hardware que permite la adquisición de datos llamados sensores y elementos que ejecutan las acciones de control llamados actuadores</p>
       <p id="suscribete">Suscríbete y dale like</p> 
       <p>
         <figure id="imageContainer">
           <img src="https://www.processindustryinformer.com/wp-content/uploads/2018/04/Movicon-NExT-SCADA-software.jpg" alt="hmi" id="hmi">
-        </figure>
-
-        
+        </figure>       
       </p>
     </div>
-    <div id="seccion-productos">seccion productos</div>
-    <div id="seccion-contacto">seccion contacto</div>
-    <div id="seccion-inicio">seccion inicio</div>
-    <div id="seccion-pedidos">seccion pedidos</div>
+    <section id="seccion-productos">seccion productos</section>
+    <section id="seccion-contacto">seccion contacto</section>
+    <section id="seccion-inicio">seccion inicio</section>
+    <section id="seccion-pedidos">seccion pedidos</section>
     <div id="footer">
       Lenin Bautista derechos reservados.
     </div>
   </div>
+  <script src="scripts/index.js"></script>
 </body>
 </html>
