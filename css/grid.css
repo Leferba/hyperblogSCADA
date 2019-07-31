@@ -1,0 +1,53 @@
+.containerGrid{
+max-width: 900px;
+margin: auto;
+}
+
+.row{
+display: flex;
+/* justify-content: space-around; */
+}
+
+.column1{
+width: 10%;
+}
+.column2{
+width: 20%;
+}
+.column3{
+width: 30%;
+}
+.column4{
+width: 40%;
+}
+.column5{
+width: 50%;
+}
+.column6{
+width: 60%;
+}
+.column7{
+width: 70%;
+}
+.column8{
+width: 80%;
+}
+.column9{
+width: 90%;
+}
+.column10{
+width: 100%;
+}
+.column1,.column2,.column3,.column4,.column5,.column6,.column7,.column8,.column9,.column10
+{
+    padding: 10px;
+}
+@media (max-width: 600px){
+    .row {
+        display: inherit;
+    }
+    .column1,.column2,.column3,.column4,.column5,.column6,.column7,.column8,.column9,.column10
+{
+    width: 100%;
+}
+}
