@@ -212,6 +212,9 @@ hr {
   text-align: center;
   border-radius: 15px;
 }
+#footer a{
+  color: var(--green-color);
+}
 /* Módulo Pago */
 .moduloPago
 {

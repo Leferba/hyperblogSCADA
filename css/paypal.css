@@ -1,0 +1,18 @@
+body{
+    background: var(--black-color);
+    color: var(--white-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.paypalContainer a
+{
+    color: var(--green-color);
+}
+.paypalContainer a:hover
+{
+    color: var(--green-color2);
+}
